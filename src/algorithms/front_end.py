@@ -147,7 +147,6 @@ class Application():
         self.tree.tag_configure("evenrow", background="#F0F0F0")
         self.tree.pack(fill="both", expand=True)
 
-    # MÉTODOS DA CLASSE (DENTRO DA CLASSE!)
     def add_livro(self):
         dados = self.obter_dados_formulario()
         if not dados:
